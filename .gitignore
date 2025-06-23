@@ -9,4 +9,5 @@ dist/
 logs/
 .env
 
-mongo/
+/mongo
+/postgres
