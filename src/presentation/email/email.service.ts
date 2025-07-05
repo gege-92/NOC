@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer';
 import { envs } from '../../config/envs.plugin';
 
 
-interface SendMailOptions {
+export interface SendMailOptions {
     to: string | string[],
     subject: string,
     htmlBody: string,
@@ -10,7 +10,7 @@ interface SendMailOptions {
 }
 
 
-interface Attachments {
+export interface Attachments {
     filename: string,
     path: string
 }

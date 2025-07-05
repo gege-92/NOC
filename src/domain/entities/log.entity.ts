@@ -39,7 +39,7 @@ export class LogEntity {
         const log = new LogEntity({
             level: level,
             message: message,
-            createAt: createdAt,
+            createAt: new Date( createdAt ),
             origin: origin
         });
 
@@ -53,7 +53,7 @@ export class LogEntity {
         const log = new LogEntity({
             level: level,
             message: message,
-            createAt: createdAt,
+            createAt: new Date( createdAt ),
             origin: origin
             
         });
